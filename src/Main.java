@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -14,6 +12,6 @@ public class Main {
         }
 
         System.out.println("Ваш итоговый счет: " + (account + amount + bonus));
-        System.out.println("Начислено бонусов : " + bonus);
+        System.out.println("Начислено бонусов: " + bonus);
     }
 }
